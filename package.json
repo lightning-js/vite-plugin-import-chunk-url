@@ -1,0 +1,40 @@
+{
+  "name": "@lightningjs/vite-plugin-import-chunk-url",
+  "version": "0.3.0",
+  "description": "",
+  "type": "module",
+  "types": "./dist/src/index.d.ts",
+  "main": "./dist/src/index.js",
+  "exports": {
+    ".": {
+      "types": "./dist/src/index.d.ts",
+      "import": "./dist/src/index.js"
+    },
+    "./client": {
+      "types": "./client.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "client.d.ts",
+    "LICENSE",
+    "NOTICE",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepack": "npm run build"
+  },
+  "author": "Comcast Cable Communications Management, LLC",
+  "license": "Apache-2.0",
+  "peerDependencies": {
+    "vite": "^4.4.9"
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.7",
+    "typescript": "^5.1.6",
+    "vite": "^4.4.9",
+    "vite-plugin-import-chunk-url": "file:"
+  }
+}

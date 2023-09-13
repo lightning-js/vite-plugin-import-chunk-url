@@ -1,0 +1,14 @@
+{
+  "name": "library-worker-custom-bundle-url",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "author": "Frank Weindel",
+  "license": "Apache-2.0"
+}
