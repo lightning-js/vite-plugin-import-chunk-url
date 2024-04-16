@@ -505,7 +505,7 @@ packages:
     id: 'file:'
     name: '@lightningjs/vite-plugin-import-chunk-url'
     peerDependencies:
-      vite: ^4.4.9
+      vite: '*'
     dependencies:
       vite: 5.2.9(@types/node@20.12.7)
     dev: true
